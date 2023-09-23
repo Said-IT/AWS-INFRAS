@@ -17,9 +17,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 1. Clonez ce dépôt sur votre machine locale :
 
-   ```bash
-   git clone https://github.com/votre-utilisateur/votre-depot.git
-   ```
+```bash
+git clone https://github.com/votre-utilisateur/votre-depot.git
+```
 Accédez au répertoire contenant le fichier main.tf :
 
   ```bash
