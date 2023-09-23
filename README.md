@@ -3,7 +3,6 @@
 Ce référentiel contient la documentation des quatre infrastructures AWS déployées, chacune accompagnée de sa topologie respective. Vous trouverez ci-dessous des informations de base sur chaque infrastructure.
 
 ---
-
 ## Infrastructure 1
 
 ### Topologie
@@ -26,7 +25,30 @@ Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, l
 
 ---
 
-## Infrastructure 2
+
+## Infrastructure 3
+
+### Topologie
+
+![Infrastructure 1 Topology](images/infrastructure1-topology.png)
+
+Description de la topologie de l'infrastructure 1.
+
+### Configuration
+
+- **Région AWS**: [Nom de la région]
+- **Services AWS**: [Liste des services AWS utilisés]
+- **Réseaux VPC**: [Liste des réseaux VPC utilisés]
+- **Sécurité**: [Réglages de sécurité et de pare-feu]
+- **Rôles IAM**: [Rôles IAM utilisés]
+
+### Guide d'Utilisation
+
+Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, les identifiants, etc.
+
+---
+
+## Infrastructure 4
 
 ### Topologie
 
@@ -48,7 +70,7 @@ Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, l
 
 ---
 
-## Infrastructure 3
+## Infrastructure 4
 
 ### Topologie
 
@@ -70,7 +92,7 @@ Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, l
 
 ---
 
-## Infrastructure 4
+## Infrastructure 5
 
 ### Topologie
 
