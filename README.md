@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 1. Clonez ce dépôt sur votre machine locale :
 
 ```bash
-git clone https://github.com/votre-utilisateur/votre-depot.git
+git clone https://github.com/Said-IT/AWS-INFRAS.git
 ```
 Accédez au répertoire contenant le fichier main.tf :
 
