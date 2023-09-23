@@ -17,13 +17,14 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 1. Clonez ce dépôt sur votre machine locale :
 
-   bash
+   ```bash
    git clone https://github.com/votre-utilisateur/votre-depot.git
-   
+   ```
 Accédez au répertoire contenant le fichier main.tf :
 
-  bash
+  ```bash
   cd chemin/vers/votre-depot
+  ```
 
 Ouvrez le fichier main.tf avec votre éditeur de texte préféré.
 
@@ -32,26 +33,28 @@ Configurez les variables et les ressources Terraform selon vos besoins. Vous pou
 #Déploiement
 Une fois que vous avez configuré le fichier main.tf selon vos besoins, vous pouvez déployer l'infrastructure en utilisant Terraform. Exécutez les commandes suivantes :
 
-  bash
+  ```bash
   terraform init
-  
+  ```
 Cela initialisera Terraform et téléchargera les plugins nécessaires.
 
-bash
-terraform plan
+   ```bash
+   terraform plan
+   ```
 Cela vous montrera un aperçu des modifications qui seront apportées à l'infrastructure.
 
-bash
-terraform apply
+   ```bash
+   terraform apply
+   ````
 
 Cela appliquera les modifications à l'infrastructure en créant ou en mettant à jour les ressources spécifiées dans le fichier main.tf.
 
 #Nettoyage
 Lorsque vous avez terminé avec l'infrastructure, vous pouvez la détruire en utilisant la commande suivante :
 
-bash
-
-terraform destroy
+   ```bash
+   terraform destroy
+   ```
 Cela supprimera toutes les ressources créées par Terraform.
 
 Conclusion
@@ -74,71 +77,59 @@ Ce guide vous a montré comment utiliser le fichier main.tf pour déployer et g�
 - **Sous-réseaux**: à adapter
 
 
+---
 
+
+## Infrastructure 2
+
+### Simple serveur web avec une IP publique directe
+
+![Infrastructure 2 Topology](images/infra1.png)
+
+
+### Configuration
+
+- **Région AWS**: à adapter
+- **Services AWS**:  à adapter
+- **Réseaux VPC**: à adapter
+- **Sécurité**: à adapter
+- **Sous-réseaux**: à adapter
 
 
 ---
-
 
 ## Infrastructure 3
 
-### Topologie
+### Serveur web derrière un reverse proxy
 
-![Infrastructure 1 Topology](images/infrastructure1-topology.png)
+![Infrastructure 3 Topology](images/infra2.png)
 
-Description de la topologie de l'infrastructure 1.
+
 
 ### Configuration
 
-- **Région AWS**: [Nom de la région]
-- **Services AWS**: [Liste des services AWS utilisés]
-- **Réseaux VPC**: [Liste des réseaux VPC utilisés]
-- **Sécurité**: [Réglages de sécurité et de pare-feu]
-- **Rôles IAM**: [Rôles IAM utilisés]
-
-### Guide d'Utilisation
-
-Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, les identifiants, etc.
+- **Région AWS**: à adapter
+- **Services AWS**:  à adapter
+- **Réseaux VPC**: à adapter
+- **Sécurité**: à adapter
+- **Sous-réseaux**: à adapter
 
 ---
 
 ## Infrastructure 4
 
-### Topologie
+###  Serveur Web avec Load Balancing AWS + Zone admin séparée
 
-![Infrastructure 2 Topology](images/infrastructure2-topology.png)
+![Infrastructure 4 Topology](images/infra3y.png)
 
-Description de la topologie de l'infrastructure 2.
-
-### Configuration
-
-- **Région AWS**: [Nom de la région]
-- **Services AWS**: [Liste des services AWS utilisés]
-- **Réseaux VPC**: [Liste des réseaux VPC utilisés]
-- **Sécurité**: [Réglages de sécurité et de pare-feu]
-- **Rôles IAM**: [Rôles IAM utilisés]
-
-### Guide d'Utilisation
-
-Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, les identifiants, etc.
-
----
-
-## Infrastructure 4
-
-### Topologie
-
-![Infrastructure 3 Topology](images/infrastructure3-topology.png)
-
-Description de la topologie de l'infrastructure 3.
 
 ### Configuration
 
-- **Région AWS**: [Nom de la région]
-- **Services AWS**: [Liste des services AWS utilisés]
-- **Réseaux VPC**: [Liste des réseaux VPC utilisés]
-- **Sécurité**: [Réglages de sécurité et de pare-feu]
-- **Rôles IAM**: [Rôles IAM utilisés]
+- **Région AWS**: à adapter
+- **Services AWS**:  à adapter
+- **Réseaux VPC**: à adapter
+- **Sécurité**: à adapter
+- **Sous-réseaux**: à adapter
 
 ### Guide d'Utilisation
 
@@ -148,23 +139,19 @@ Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, l
 
 ## Infrastructure 5
 
-### Topologie
+### Projet final
 
-![Infrastructure 4 Topology](images/infrastructure4-topology.png)
+![Infrastructure 5 Topology](images/projet.png)
 
-Description de la topologie de l'infrastructure 4.
 
 ### Configuration
 
-- **Région AWS**: [Nom de la région]
-- **Services AWS**: [Liste des services AWS utilisés]
-- **Réseaux VPC**: [Liste des réseaux VPC utilisés]
-- **Sécurité**: [Réglages de sécurité et de pare-feu]
-- **Rôles IAM**: [Rôles IAM utilisés]
+- **Région AWS**: à adapter
+- **Services AWS**:  à adapter
+- **Réseaux VPC**: à adapter
+- **Sécurité**: à adapter
+- **Sous-réseaux**: à adapter
 
-### Guide d'Utilisation
-
-Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, les identifiants, etc.
 
 ---
 
