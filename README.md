@@ -155,6 +155,6 @@ Expliquez comment utiliser cette infrastructure, les points d'accès, les URL, l
 
 ---
 
-N'oubliez pas de personnaliser cette structure en remplaçant les valeurs entre crochets (`[...]`) par les informations spécifiques à vos infrastructures AWS. Vous pouvez également ajouter des détails supplémentaires, des captures d'écran ou des liens vers d'autres documents pertinents.
+N'oubliez pas de personnaliser cette structure en remplaçant les valeurs entre crochets (`à adapter`) par les informations spécifiques à vos infrastructures AWS. Vous pouvez également ajouter des détails supplémentaires, des captures d'écran ou des liens vers d'autres documents pertinents.
 
 
