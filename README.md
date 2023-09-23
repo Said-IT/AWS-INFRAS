@@ -120,7 +120,7 @@ Ce guide vous a montré comment utiliser le fichier main.tf pour déployer et g�
 
 ###  Serveur Web avec Load Balancing AWS + Zone admin séparée
 
-![Infrastructure 4 Topology](images/infra3y.png)
+![Infrastructure 4 Topology](images/infra3.png)
 
 
 ### Configuration
